@@ -115,10 +115,7 @@ object PermissionUtils {
         for (permission in permissions) {
             var message = ""
             try {
-
                 val permissionInfo = pm.getPermissionInfo(permission, 0)
-                var xx=context.getString(permissionInfo.labelRes)
-                var x2=context.getString(permissionInfo.descriptionRes)
                 if(permissionInfo.group!=null && !permissionInfo.group.equals("android.permission-group.UNDEFINED")) {
                     val groupInfo = pm.getPermissionGroupInfo(permissionInfo.group!!, 0)
                     message = groupInfo.loadLabel(pm).toString()

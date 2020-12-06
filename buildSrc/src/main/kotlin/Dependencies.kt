@@ -16,6 +16,8 @@ object Versions {
     const val PLUGIN_GRADLE_VERSION="3.6.3"
     const val PLUGIN_GMS_VERSION="3.1.1"
     const val KOTLIN_VERSION = "1.3.60"
+    const val PLUGIN_BINTRAY_VERSION="1.7.3"
+    const val PLUGIN_MAVEN_VERISON="2.1"
 
     const val ANDROIDX_APP_COMPAT_VERSION = "1.2.0"
     const val ANDROIDX_LEGACY_V4_VERSION = "1.0.0"
