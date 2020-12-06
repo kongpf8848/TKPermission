@@ -5,72 +5,57 @@
 
 ## Kotlin
 
- - 一次申请单个权限
+ ### 一次申请单个权限
  
    ```kotlin
-   permission(Manifest.permission.CAMERA) {
-       /**
-        * 权限允许时回调
-       */
-       granted {
-       
-       }
-       /**
-       * 权限拒绝时回调
-       */
-       denied {
-       
-       }
-    }
+      permission(Manifest.permission.CAMERA) {
+            /**
+             * 权限允许时回调
+             */
+            granted {
+            }
+            /**
+             * 权限拒绝时回调
+             */
+            denied {
+            }
+        }
     ```
     
- - 一次申请多个权限
+ ### 一次申请多个权限
  
   ```kotlin
-     permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO) {
-         /**
-          * 多个权限全部被允许时回调
-          */
-         allGranted {
+         permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO) {
+            /**
+             * 多个权限全部被允许时回调
+             */
+            allGranted {
 
-         }
-         /**
-          * 被拒绝的权限列表
-          List<String>
-          */
-         denied {
+            }
+            /**
+             * 被拒绝的权限列表
+             */
+            denied {
 
-         }
-     }
+            }
+        }
   
   ```
   ## Java
-  
-   - 一次申请单个权限
-   
-     ```java
-     PermissionUtils.INSTANCE.requestPermission(this, Manifest.permission.READ_PHONE_STATE, new PermissionListener() {
-            @Override
-            public void granted(String permission) {
-            }
 
-            @Override
-            public void denied(String permission) {
-            }
-        });
-    ```
- - 一次申请多个权限
+    
+ ### 一次申请多个权限
  
  ```java
- PermissionUtils.INSTANCE.requestMultiplePermissions(this,Arrays.asList(Manifest.permission.READ_CONTACTS, Manifest.permission.READ_SMS), new MultiplePermissionsListener() {
-        @Override
-        public void allGranted() {
+    PermissionUtils.INSTANCE.requestMultiplePermissions(this, Arrays.asList(Manifest.permission.READ_CONTACTS, Manifest.permission.READ_SMS), new MultiplePermissionsListener() {
+            @Override
+            public void allGranted() {
 
-        }
+            }
 
-        @Override
-        public void denied(List<String> list) {
+            @Override
+            public void denied(List<String> list) {
 
-        }
-    });
+            }
+        });
  ```
