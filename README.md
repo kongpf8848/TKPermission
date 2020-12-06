@@ -1,6 +1,11 @@
 # TKPermission
 **基于Activity Result API封装的权限类库，摆脱旧的繁琐的权限申请方式，让权限申请变得无比简单轻松**:smile::smile::smile:
 
+# 功能特点
++ 使用简单，调用方式友好，兼容kotlin和java，使用kotlin语言调用更酸爽
++ 基于Google最新的Activity Result API封装，代码量极少
++ 支持一次申请单个权限和多个权限，基本满足各类权限申请使用场景
+
 # 使用
 
 ## Kotlin
