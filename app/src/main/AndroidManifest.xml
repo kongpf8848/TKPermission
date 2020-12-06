@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
 
     <application
@@ -21,7 +22,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.PermissionKotlinActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,6 +32,9 @@
 
         <activity android:name=".activity.PermissionJavaActivity" android:screenOrientation="portrait"
             android:label="@string/java_demo"
+            />
+        <activity android:name=".activity.OriginalActivity" android:screenOrientation="portrait"
+            android:label="@string/original_demo"
             />
     </application>
 

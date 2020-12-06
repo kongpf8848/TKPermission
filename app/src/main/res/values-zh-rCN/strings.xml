@@ -5,7 +5,10 @@
     <string name="request_storage_record_permission">申请存储,录音权限</string>
     <string name="request_phone_permission">申请电话权限</string>
     <string name="request_contacts_sms_permission">申请读取联系人,短信权限</string>
+    <string name="request_location_permission">申请位置权限</string>
     <string name="java_demo">权限申请Java版</string>
+    <string name="original_demo">权限申请原始版</string>
+
 
     <string name="permission_dialog_title">@string/app_name</string>
     <string name="permission_dialog_message">需要申请以下权限:[%1$s]，去设置?</string>

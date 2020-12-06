@@ -10,7 +10,7 @@ import com.github.kongpf8848.tkpermisssion.sample.R
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
-class PermissionKotlinActivity : BaseActivity() {
+class MainActivity : BaseActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,6 +26,10 @@ class PermissionKotlinActivity : BaseActivity() {
         button3.setOnClickListener {
             startActivity(Intent(this,
                 PermissionJavaActivity::class.java))
+        }
+        button4.setOnClickListener {
+            startActivity(Intent(this,
+                OriginalActivity::class.java))
         }
     }
 
