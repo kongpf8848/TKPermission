@@ -86,3 +86,18 @@ PermissionUtils.INSTANCE.requestMultiplePermissions(this, Arrays.asList(Manifest
             }
         });
  ```
+ ## 其他
+ 
+ + 通常申请权限时，如用户拒绝后，App会弹出一个对话框，引导用户去应用信息页面去手动开启权限，其对应的代码为：
+ ```java
+     /**
+     * 跳转到应用程序信息
+     */
+    fun gotoAppDetail(context: Context) {
+        val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+        intent.data = Uri.parse("package:" + context.packageName)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        context.startActivity(intent)
+    }
+ ```
+ 
