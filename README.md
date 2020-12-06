@@ -1,5 +1,5 @@
 # TKPermission
-**基于Activity Result API封装的权限类库，摆脱旧的繁琐的权限申请方式，让权限申请变得无比简单轻松**:smile::smile::smile:
+**基于AndroidX Activity Result API封装的权限类库，摆脱旧的繁琐的权限申请方式，让权限申请变得无比简单轻松**:smile::smile::smile:
 
 # 功能特点
 + 使用简单，调用方式友好，兼容kotlin和java，使用kotlin语言调用更酸爽
