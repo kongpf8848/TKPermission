@@ -1,0 +1,3 @@
+include ':tkpermission'
+include ':app'
+rootProject.name = "TKPermission"

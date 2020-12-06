@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TKPermission</string>
+
+    <string name="request_camera_permission">Request Camera Permission</string>
+    <string name="request_storage_record_permission">Request Storage,Record Permission</string>
+    <string name="request_phone_permission">Request Phone Permission</string>
+    <string name="request_contacts_sms_permission">Request Read Contacts SMS Permission</string>
+
+
+    <string name="java_demo">Permission Java Demo</string>
+
+    <string name="permission_dialog_title">@string/app_name</string>
+    <string name="permission_dialog_message">We need request permissions:[%1$s]，goto App Settings?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+</resources>

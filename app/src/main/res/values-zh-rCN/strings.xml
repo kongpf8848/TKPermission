@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TKPermission</string>
+
+    <string name="request_camera_permission">申请相机权限</string>
+    <string name="request_storage_record_permission">申请存储,录音权限</string>
+    <string name="request_phone_permission">申请电话权限</string>
+    <string name="request_contacts_sms_permission">申请读取联系人,短信权限</string>
+    <string name="java_demo">权限申请Java版</string>
+
+    <string name="permission_dialog_title">@string/app_name</string>
+    <string name="permission_dialog_message">需要申请以下权限:[%1$s]，去设置?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+</resources>
