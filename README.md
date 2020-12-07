@@ -8,6 +8,12 @@
 
 # 使用
 
+## 添加依赖
+
+```
+implementation 'com.github.kongpf8848:tkpermission:1.0.0'
+```
+
 ## Kotlin
 
  ### 一次申请单个权限
