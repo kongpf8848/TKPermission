@@ -3,7 +3,7 @@
 
 # 功能特点
 + 使用简单，调用方式友好，兼容kotlin和java，使用kotlin语言调用更酸爽
-+ 基于Google最新的Activity Result API封装，代码量极少，极简主义
++ 基于Google的Activity Result API封装，代码量极少，极简主义
 + 支持一次申请单个权限和多个权限，基本满足各类权限申请使用场景
 
 # 使用
@@ -105,5 +105,7 @@ PermissionUtils.INSTANCE.requestMultiplePermissions(this, Arrays.asList(Manifest
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         context.startActivity(intent)
     }
+  
+  + <font color='red'>目前result api版本不稳定，静等google推出稳定版本.目前activity-ktx1.2.0-alpha06版本,fragment-ktx1.3.0-alpha06版本可用</font>
  ```
  
