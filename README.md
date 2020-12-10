@@ -106,6 +106,5 @@ PermissionUtils.INSTANCE.requestMultiplePermissions(this, Arrays.asList(Manifest
         context.startActivity(intent)
     }
   
-  + <font color='red'>目前result api版本不稳定，静等google推出稳定版本.目前activity-ktx1.2.0-alpha06版本,fragment-ktx1.3.0-alpha06版本可用</font>
  ```
- 
+ + <font color='red'>目前result api版本不稳定，静等google推出稳定版本.目前activity-ktx1.2.0-alpha06版本,fragment-ktx1.3.0-alpha06版本可用</font>
