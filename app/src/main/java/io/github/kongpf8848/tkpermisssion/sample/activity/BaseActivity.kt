@@ -1,12 +1,12 @@
-package com.github.kongpf8848.tkpermisssion.sample.activity
+package io.github.kongpf8848.tkpermisssion.sample.activity
 
 import android.content.Intent
 import android.net.Uri
 import android.provider.Settings
 import androidx.appcompat.app.AppCompatActivity
-import com.github.kongpf8848.tkpermission.PermissionUtils
-import com.github.kongpf8848.tkpermisssion.sample.R
-import com.github.kongpf8848.tkpermisssion.sample.showDialog
+import io.github.kongpf8848.tkpermission.PermissionUtils
+import io.github.kongpf8848.tkpermisssion.sample.R
+import io.github.kongpf8848.tkpermisssion.sample.showDialog
 
 open class BaseActivity:AppCompatActivity(){
 

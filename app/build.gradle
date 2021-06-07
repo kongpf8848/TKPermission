@@ -7,7 +7,7 @@ android {
     buildToolsVersion Config.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.github.kongpf8848.tkpermisssion.sample"
+        applicationId "io.github.kongpf8848.tkpermisssion.sample"
         minSdkVersion Config.minSdkVersion
         targetSdkVersion Config.targetSdkVersion
         versionCode 1

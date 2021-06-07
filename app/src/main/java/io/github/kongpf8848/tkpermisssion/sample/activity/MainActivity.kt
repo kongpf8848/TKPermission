@@ -1,12 +1,12 @@
-package com.github.kongpf8848.tkpermisssion.sample.activity
+package io.github.kongpf8848.tkpermisssion.sample.activity
 
 import android.Manifest
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import com.github.kongpf8848.tkpermission.permission
-import com.github.kongpf8848.tkpermission.permissions
-import com.github.kongpf8848.tkpermisssion.sample.R
+import io.github.kongpf8848.tkpermission.permission
+import io.github.kongpf8848.tkpermission.permissions
+import io.github.kongpf8848.tkpermisssion.sample.R
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 

@@ -1,4 +1,4 @@
-package com.github.kongpf8848.tkpermisssion.sample.activity;
+package io.github.kongpf8848.tkpermisssion.sample.activity;
 
 import android.Manifest;
 import android.os.Bundle;
@@ -7,14 +7,13 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import com.github.kongpf8848.tkpermission.MultiplePermissionsListener;
-import com.github.kongpf8848.tkpermission.PermissionListener;
-import com.github.kongpf8848.tkpermission.PermissionUtils;
-import com.github.kongpf8848.tkpermisssion.sample.R;
-import com.github.kongpf8848.tkpermisssion.sample.activity.BaseActivity;
-
 import java.util.Arrays;
 import java.util.List;
+
+import io.github.kongpf8848.tkpermission.MultiplePermissionsListener;
+import io.github.kongpf8848.tkpermission.PermissionListener;
+import io.github.kongpf8848.tkpermission.PermissionUtils;
+import io.github.kongpf8848.tkpermisssion.sample.R;
 
 public class PermissionJavaActivity extends BaseActivity {
 

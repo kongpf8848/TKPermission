@@ -1,14 +1,10 @@
-package com.github.kongpf8848.tkpermisssion.sample.dialog
+package io.github.kongpf8848.tkpermisssion.sample.dialog
 
-import android.app.Dialog
 import android.content.Context
-import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.TextView
-import com.github.kongpf8848.tkpermisssion.sample.R
+import io.github.kongpf8848.tkpermisssion.sample.R
 
 
 class CustomDialog(context: Context): BaseDialog(

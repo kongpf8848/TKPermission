@@ -1,7 +1,7 @@
-package com.github.kongpf8848.tkpermisssion.sample
+package io.github.kongpf8848.tkpermisssion.sample
 
 import androidx.appcompat.app.AppCompatActivity
-import com.github.kongpf8848.tkpermisssion.sample.dialog.CustomDialog
+import io.github.kongpf8848.tkpermisssion.sample.dialog.CustomDialog
 
 inline fun AppCompatActivity.showDialog(settings: CustomDialog.() -> Unit) : CustomDialog {
     val dialog = CustomDialog.newInstance(this)

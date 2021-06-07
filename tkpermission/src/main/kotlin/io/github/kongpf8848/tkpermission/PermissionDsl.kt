@@ -1,4 +1,4 @@
-package com.github.kongpf8848.tkpermission
+package io.github.kongpf8848.tkpermission
 
 import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
@@ -19,6 +19,7 @@ private inline fun ComponentActivity.requestPermission(
             else -> denied.invoke(permission)
         }
     }.launch(permission)
+
 }
 
 private inline fun ComponentActivity.requestMultiplePermissions(

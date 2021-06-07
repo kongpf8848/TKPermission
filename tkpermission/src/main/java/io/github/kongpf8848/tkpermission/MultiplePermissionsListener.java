@@ -1,4 +1,4 @@
-package com.github.kongpf8848.tkpermission;
+package io.github.kongpf8848.tkpermission;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.github.kongpf8848.tkpermisssion.sample.dialog
+package io.github.kongpf8848.tkpermisssion.sample.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -7,7 +7,7 @@ import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.WindowManager
-import com.github.kongpf8848.tkpermisssion.sample.R
+import io.github.kongpf8848.tkpermisssion.sample.R
 
 /**
  * Dialog基类
