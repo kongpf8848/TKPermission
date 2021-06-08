@@ -8,7 +8,6 @@ import androidx.activity.result.contract.ActivityResultContracts.RequestMultiple
 import androidx.activity.result.contract.ActivityResultContracts.RequestPermission
 import androidx.fragment.app.Fragment
 import java.util.*
-import java.util.jar.Manifest
 
 object PermissionUtils {
 

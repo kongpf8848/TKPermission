@@ -9,16 +9,24 @@
 # 使用
 
 ## 添加依赖
-
+* 在项目根目录的build.gradle文件中添加：
 ```
-implementation 'com.github.kongpf8848:tkpermission:1.0.0'
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+```
+* 在具体Module的build.gradle文件中添加:
+```
+implementation 'io.github.kongpf8848:tkpermission:1.0.0'
 ```
 
 ## Kotlin
 
  ### 一次申请单个权限
 
-   ```java
+   ```kotlin
       permission(Manifest.permission.CAMERA) {
             /**
              * 权限允许时回调
@@ -35,7 +43,7 @@ implementation 'com.github.kongpf8848:tkpermission:1.0.0'
 
  ### 一次申请多个权限
 
-   ```java
+   ```kotlin
       permissions(Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO) {
          /**
           * 多个权限全部被允许时回调
@@ -95,7 +103,7 @@ PermissionUtils.INSTANCE.requestMultiplePermissions(this, Arrays.asList(Manifest
  ## 其他
  
  + 通常申请权限时，如用户拒绝后，App会弹出一个对话框，引导用户去应用信息页面去手动开启权限，其对应的代码为：
- ```java
+ ```kotlin
      /**
      * 跳转到应用程序信息
      */

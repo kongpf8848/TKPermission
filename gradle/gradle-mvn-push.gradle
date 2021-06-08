@@ -35,11 +35,11 @@ def getSnapshotRepositoryUrl() {
 }
 
 def getRepositoryUsername() {
-  return hasProperty('SONATYPE_NEXUS_USERNAME') ? ossrhUsername : ""
+  return hasProperty('ossrhUsername') ? ossrhUsername : ""
 }
 
 def getRepositoryPassword() {
-  return hasProperty('SONATYPE_NEXUS_PASSWORD') ? ossrhPassword : ""
+  return hasProperty('ossrhPassword') ? ossrhPassword : ""
 }
 
 afterEvaluate { project ->
@@ -140,6 +140,8 @@ afterEvaluate { project ->
       source = android.sourceSets.main.java.source
       classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
       excludes = ['**/*.kt']
+      options.encoding "UTF-8"
+      options.charSet "UTF-8"
     }
 
     task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
